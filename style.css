@@ -1,0 +1,128 @@
+
+.agarbotovh_position {
+	display:inline-block;
+}
+
+.agarbotovh_progress-bar {
+  position: relative;
+  height: 50px;
+  width: 50px;
+}
+
+.agarbotovh_progress-bar div {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.agarbotovh_progress-bar div span {
+  position: absolute;
+  font-family: Arial;
+  font-size: 11px;
+  color:white;
+  line-height: 35px;
+  height: 34px;
+  width: 34px;
+  left: 8px;
+  top: 8px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #4e595e;
+}
+
+.agarbotovh_progress-bar .background { background-color: #2e3c41; }
+
+.agarbotovh_progress-bar .rotate {
+  clip: rect(0 25px 50px 0);
+  background-color: #4b86db;
+}
+
+.agarbotovh_progress-bar .left {
+  clip: rect(0 25px 50px 0);
+  opacity: 1;
+  background-color: #2e3c41;
+}
+
+.agarbotovh_progress-bar .right {
+  clip: rect(0 25px 50px 0);
+  transform: rotate(180deg);
+  opacity: 0;
+  background-color: #4b86db;
+}
+ @keyframes 
+toggle {  0% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 1;
+}
+}
+
+#agarbotovh_topBox{
+	background-color:rgba(0,0,0,0.3);
+	padding:2px;
+	float:left;
+	color:white;
+	position:absolute;
+	left:-1px;
+	top:-1px;
+	border:1px solid rgba(255,255,255,0.5);
+	z-index : 999;
+}
+
+#agarbotovh_logo{
+	background-image: url("http://87.98.132.227/js/logo.png");
+	height:33px;
+	width:188px;
+	float:left;
+}
+
+.agarbotovh_actions{
+	cursor:default;
+	float:left;
+	margin-left:12px;
+}
+
+.agarbotovh_actionHolder{
+	float:left;
+	margin-left:6px;
+	background-color:rgba(0,0,0,0.3);
+	padding:7px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.agarbotovh_action{
+	float:left;
+	padding:2px;
+	margin-left:5px;
+}
+
+
+.agarbotovh_token{
+	float:left;
+	border-radius:3px;
+	padding:2px 6px;
+}
+
+.agarbotovh_red{background-color:#c73535;} .agarbotovh_green{background-color:#4db53c;}
+
+.agarbotovh_leftBox{
+	text-align:center;
+	background-color:rgba(0,0,0,0.3);
+	padding:5px;
+	float:left;
+	color:white;
+	position:absolute;
+	left:-1px;
+	top:44px;
+	border:1px solid rgba(255,255,255,0.5);
+}
+
+.agarbotovh_row{
+	margin-top:5px;
+	box-sizing : border-box;
+}
+//COPIRIGHT BY SIZREX
